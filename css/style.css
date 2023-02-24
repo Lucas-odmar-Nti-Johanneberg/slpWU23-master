@@ -1,0 +1,71 @@
+body {
+    margin 0px;
+}
+
+.container1 {
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: 
+    'hd'
+    'mn'
+}
+
+
+
+.header1 {
+    grid-area: hd;
+    text-align: center;
+    background-color: aqua;
+}
+
+.main1 {    
+    background: url(/img/IMG_0340.jpg);
+    background-position: center center;
+    background-size: cover;
+    grid-area: mn;
+    background-color: blueviolet;
+}
+
+.meny1 {
+    height: 100vh;
+    width: 100vw;
+    background: blue;
+    position: fixed;
+    left: -110vw;
+    transition: left 0.3s;
+    box-shadow: 10px 0px 21px -10px rgba(0,0,0,0.75);
+    z-index: 10;
+
+}
+
+.meny_button {
+    cursor: pointer;
+    display: inline;
+}
+
+.show{
+    left: 0;
+}
+
+.fade_layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    z-index: 5;
+}
+
+.fade-layer.visible{
+    display: block;
+}
+
+
+
+
