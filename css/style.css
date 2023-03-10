@@ -2,7 +2,10 @@ body {
     margin 0px;
 }
 
-.container1 {
+.container1 {  
+    background: url(/img/IMG_0340.jpg);
+    background-position: center center;
+    background-size: cover;
     margin: 0px;
     height: 100vh;
     width: 100vw;
@@ -17,22 +20,27 @@ body {
 
 
 .header1 {
-    grid-area: hd;
+    margin: auto;
     text-align: center;
-    background-color: aqua;
+    grid-area: hd;
+    
 }
 
 .main1 {    
-    background: url(/img/IMG_0340.jpg);
-    background-position: center center;
-    background-size: cover;
     grid-area: mn;
-    background-color: blueviolet;
 }
 
+.lista1 {
+    font-size: x-large;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 10vh;
+}
 .meny1 {
     height: 100vh;
-    width: 100vw;
+    width: 25%;
     background: blue;
     position: fixed;
     left: -110vw;
@@ -43,6 +51,7 @@ body {
 }
 
 .meny_button {
+    font-size: xx-large;
     cursor: pointer;
     display: inline;
 }
@@ -68,4 +77,52 @@ body {
 
 
 
+.container2 {  
+    background: white;
+    background-position: center center;
+    background-size: cover;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    grid-template-areas: 
+    'hd'
+    'mn2'
+}
+
+.main2 {    
+    margin: 0px;
+    grid-area: mn2;
+    background: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article1 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 30px;
+    height: auto;
+    background-color: blue;
+    flex-basis: 100%
+    
+}
+.bilder_fiskar {
+    margin: 10px;
+    border-radius: 30px;
+    background: red;
+    height: auto;
+    flex-basis: 100%;
+}
+
+.info1 {
+    margin: 10px;
+    border-radius: 30px;
+    background: red;
+    height: auto;
+    flex-basis: 100%;
+}
 
