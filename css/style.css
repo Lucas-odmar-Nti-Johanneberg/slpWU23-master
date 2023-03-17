@@ -37,11 +37,12 @@ body {
 
 li {
     margin-top: 10vh;
+    font-size: small;
 }
 .meny1 {
     height: 100vh;
     width: 25%;
-    background: blue;
+    background: white;
     position: fixed;
     left: -110vw;
     transition: left 0.3s;
@@ -110,12 +111,37 @@ li {
     flex-basis: 100%
     
 }
-.bilder_fiskar {
+.bilder_fiskar1 {
+    background: url(/img/IMG_4495.jpg);
+    background-position: center;
+    background-size:cover;
     margin: 10px;
     border-radius: 30px;
-    background: red;
     height: auto;
     flex-basis: 100%;
+    
+}
+
+.bilder_fiskar2 {
+    background: url(/img/IMG_4066.jpg);
+    background-position: center;
+    background-size:cover;
+    margin: 10px;
+    border-radius: 30px;
+    height: auto;
+    flex-basis: 100%;
+    
+}
+
+.bilder_fiskar3 {
+    background: url(/img/);
+    background-position: center;
+    background-size:cover;
+    margin: 10px;
+    border-radius: 30px;
+    height: auto;
+    flex-basis: 100%;
+    
 }
 
 .info1 {
