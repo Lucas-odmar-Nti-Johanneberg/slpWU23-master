@@ -79,7 +79,7 @@ li {
 
 
 .container2 {  
-    background: white;
+    background: lightblue;
     background-position: center center;
     background-size: cover;
     margin: 0px;
@@ -181,6 +181,7 @@ li {
 
 
 .container3 {  
+    background: lightblue;
     background-position: center center;
     background-size: cover;
     margin: 0px;
@@ -205,17 +206,104 @@ li {
     flex-wrap: wrap;
 }
 
-.article2 {
+.article21 {
+    background: url(/img/IMG_3699.jpg);
+    background-position: center center;
+    background-size: cover;
     display: flex;
     flex-direction: row;
     margin: 10px;
     border-radius: 30px;
-    height: 20vh;
+    height: 25vh;
     width: 44vw;
     background-color: blue;
 }
 
+.article22 {
+    background: url(/img/IMG_3470.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 30px;
+    height: 25vh;
+    width: 44vw;
+    background-color: blue;
+}
+
+.article23 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 30px;
+    height: 25vh;
+    width: 44vw;
+    background-color: blue;
+}
+
+.article24 {
+    background: url(/img/IMG_4385.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 30px;
+    height: 25vh;
+    width: 44vw;
+    background-color: blue;
+}
+
+.article25 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 30px;
+    height: 25vh;
+    width: 44vw;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    'hd_ut'
+    'in_ut';
+}
+
+.article26 {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 30px;
+    height: 25vh;
+    width: 44vw;
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    'hd_ut'
+    'in_ut';
+}
+
+
+.header_utrustning {
+    grid-area: hd_ut;
+    text-align: center;
+    margin: auto;
+}
+
+.info_utrustning {
+    grid-area: in_ut;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
 .container4 {  
+    background: lightblue ;
     background-position: center center;
     background-size: cover;
     margin: 0px;
@@ -269,4 +357,293 @@ li {
     grid-area: k;
     background: green;
     width: 95vw;
+}
+
+.karta2 {
+    border-radius: 30px;
+    grid-area: k;
+    background: green;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 15% 85%;
+    grid-template-areas: 
+    'hd'
+    'lk'
+    ;
+}
+
+.reviews {
+    grid-area: hd;
+    font-size: x-large;
+    text-align: left;
+    margin: 20px;
+}
+
+.list_kontakt {
+    grid-area: lk;
+    width: 95vw;
+    height: 100%;
+}
+
+.lista_kontakt {
+
+    
+}
+
+.list_item {
+    margin-top: 40px;
+    font-size: medium;
+}
+
+@media screen and (min-width:391px) {
+    body {
+        margin: 0px;
+    }
+    
+    .container1 {  
+        background: url(/img/IMG_0340.jpg);
+        background-position: center;
+        background-position-y: 28%;
+        background-position-x: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0px;
+        height: 100vh;
+        width: 100vw;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 10% 90%;
+        grid-template-areas: 
+        'hd'
+        'mn'
+    }
+    
+    
+    .header1 {
+        margin: auto;
+        text-align: right;
+        grid-area: hd;
+    }
+    
+    .main1 {    
+        grid-area: mn;
+    }
+
+    /*fongster*/
+    .main2 {    
+        margin: 0px;
+        grid-area: mn2;
+        background: lightblue;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .article1 {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        border-radius: 30px;
+        height: 90vh;
+        background-color: blue;
+        flex-basis: 100%
+        
+    }
+    .bilder_fiskar1 {
+        background: url(/img/IMG_4495.jpg);
+        background-position: center;
+        background-size:cover;
+        margin: 10px;
+        border-radius: 30px;
+        height: auto;
+        width: 20vw;
+        flex-basis: 100%;
+        
+    }
+    
+    .bilder_fiskar2 {
+        background: url(/img/IMG_4066.jpg);
+        background-position: center;
+        background-size:cover;
+        margin: 10px;
+        border-radius: 30px;
+        height: auto;
+        width: 20vw;
+        flex-basis: 100%;
+        
+    }
+    
+    .bilder_fiskar3 {
+        background: url(/img/abborre.jpg);
+        background-position: center;
+        background-size:cover;
+        margin: 10px;
+        border-radius: 30px;
+        height: auto;
+        width: 20vw;
+        flex-basis: 100%;
+        
+    }
+    
+    .info1 {
+        margin: 10px;
+        border-radius: 30px;
+        height: auto;
+        flex-basis: 100%;
+        display: grid; 
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+        grid-template-areas: 
+        'rf'
+        'info';
+    }
+    
+    
+    .rubrik_fiskar {
+        font-size: large;
+        text-align: center;
+        margin: auto;
+        border-radius: 30px; 
+        grid-area: rf;
+    }
+    
+    .inforuta {
+        height: auto;
+        border-radius: 30px; 
+        background: green;
+        grid-area: info;
+        width: 42.3vw;
+    }
+    
+    .inforuta p {
+        margin: 10px;
+    
+    }
+
+    .main3 {    
+        margin: 0px;
+        grid-area: mn3;
+        background: lightblue;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .article21 {
+        order: 1;
+        background: url(/img/IMG_3699.jpg);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        border-radius: 30px;
+        height: 40vh;
+        width: 30vw;
+        background-color: blue;
+    }
+    
+    .article22 {
+        background: url(/img/abborre.jpg);
+        background-position: center center;
+        background-size: cover;
+        order: 2;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        border-radius: 30px;
+        height: 40vh;
+        width: 30vw;
+        background-color: blue;
+    }
+    /* denna ska bli inforuta*/
+    .article23 {
+        background: url(/img/IMG_4385.jpg);
+        background-position: center center;
+        background-size: cover;
+        order: 5;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        border-radius: 30px;
+        height: 40vh;
+        width: 30vw;
+        background-color: blue;
+    }
+    
+    .article24 {
+        background: url(/img/IMG_3470.jpg);
+        background-position: center center;
+        background-size: cover;
+        order: 4;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        border-radius: 30px;
+        height: 40vh;
+        width: 30vw;
+        background-color: blue;
+    }
+
+    .article25 {
+        order: 3;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        border-radius: 30px;
+        height: 40vh;
+        width: 30vw;
+        background-color: blue;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+        grid-template-areas: 
+        'hd_ut'
+        'in_ut';
+    }
+    
+  
+    /*denna ska bli inforuta */
+    .article26 {
+        order: 6;
+        display: flex;
+        flex-direction: row;
+        margin: 10px;
+        border-radius: 30px;
+        height: 40vh;
+        width: 30vw;
+        background-color: blue;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 85%;
+        grid-template-areas: 
+        'hd_ut'
+        'in_ut';
+    }
+    
+    
+    .header_utrustning {
+        grid-area: hd_ut;
+        text-align: center;
+        margin: auto;
+        font-size: x-large;
+    }
+    
+    .info_utrustning {
+        grid-area: in_ut;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: large;
+    }
+    
+
+   
+    
+    
+
+   
 }
