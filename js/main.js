@@ -1,4 +1,4 @@
-let button = document.querySelector(".meny_button")
+let button = document.querySelector(".material-icons")
 let menu = document.querySelector(".meny1")
 let fade = document.querySelector(".fade_layer")
 
